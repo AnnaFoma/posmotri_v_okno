@@ -79,7 +79,7 @@ ol {
 }
 
 .content {
-  margin: 133px 30px 0 30px;
+  padding: 133px 30px;
   display: flex;
   flex-direction: row;
   justify-content: center;
