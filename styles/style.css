@@ -6,16 +6,18 @@
 
 html {
   block-size: 100%;
-  display: flex;
 }
 
 .page {
   inline-size: 1200px;
   block-size: 100%;
-  margin: auto;
-  color: #fff;
+  margin: auto;  
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
+  color: #fff;
   background-color: #1b1919;
 }
 
