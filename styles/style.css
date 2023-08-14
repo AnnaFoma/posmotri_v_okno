@@ -14,7 +14,7 @@ html {
   margin: auto;  
   display: flex;
   justify-content: center;
-  /* align-content: center; */
+  align-content: flex-end;
   align-items: center;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
