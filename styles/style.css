@@ -86,7 +86,6 @@ ol {
   padding: 133px 30px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: flex-end;
   gap: 30px;
   width: 100%;
@@ -207,11 +206,10 @@ ol {
   min-block-size: 15px;
   background-color: #fff;
 }
-
-.search-form__pseudo-checkbox:hover ~ .search-form__label-text {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
-  text-decoration-thickness: 1px;
   text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
 }
 
 .search-form__submit-button {
@@ -225,8 +223,7 @@ ol {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 26px;
-  min-height: 298px;
+  gap: 23px;
   height: 100%;
   width: 100%;
 }
@@ -239,6 +236,7 @@ ol {
   line-height: 94%; /* 70.5px */
   text-transform: uppercase;
   color: #fff;
+  padding-top: 3px;
 }
 
 .content__accent {
@@ -254,6 +252,7 @@ ol {
   gap: 30px;
   overflow: auto;
   height: 298px;
+  width: 100%;
   padding: 2px;
 }
 
@@ -317,6 +316,7 @@ ol {
   font-weight: 700;
   line-height: 100%; /* 30px */
   text-transform: uppercase;
+  margin: 2px;
 }
 
 .content__video-card-description {
@@ -326,13 +326,15 @@ ol {
   font-style: normal;
   font-weight: 400;
   line-height: 90%;
+  margin: 2px;
 }
 
 .content__video-card-thumbnail {
   width: 100%;
   height: 103px;
-  object-fit: fill;
+  object-fit: cover;
   object-position: center;
+  margin: 2px;
 }
 
 .more-button {
